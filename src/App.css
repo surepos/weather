@@ -71,6 +71,7 @@ body {
   outline: none;
 }
 .searchCity .searchSection button {
+  color: black;
   background-color: #eaecff;
   width: 100px;
   height: 50px;
