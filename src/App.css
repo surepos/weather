@@ -251,7 +251,7 @@ body {
   }
   .sectionTwo .weatherInfo .moreWeather {
     width: 100%;
-    font-size: 0.98rem;
+    font-size: 0.95rem;
     margin-left: -20px;
   }
   .sectionTwo .weatherInfo .moreWeather img {
@@ -265,13 +265,13 @@ body {
     height: 170px;
   }
   .sectionThree .today {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .sectionThree .today .todayImg img {
     width: 60px;
   }
   .sectionThree .today .todayTemp {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .searchCity .searchSection button {
     margin-top: 4px;
