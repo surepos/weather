@@ -251,7 +251,7 @@ body {
   }
   .sectionTwo .weatherInfo .moreWeather {
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.98rem;
     margin-left: -20px;
   }
   .sectionTwo .weatherInfo .moreWeather img {
@@ -274,7 +274,7 @@ body {
     font-size: 0.5rem;
   }
   .searchCity .searchSection button {
-    margin-top: 2px;
+    margin-top: 4px;
     margin-left: -15px;
     font-size: 1rem;
   }
