@@ -272,4 +272,9 @@ body {
   .sectionThree .today .todayTemp {
     font-size: 0.5rem;
   }
+  .searchCity .searchSection button {
+    
+    margin-left: -10px;
+    font-size: 1rem;
+  }
 }
