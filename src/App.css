@@ -274,8 +274,8 @@ body {
     font-size: 0.5rem;
   }
   .searchCity .searchSection button {
-    
-    margin-left: -10px;
+    margin-top: 2px;
+    margin-left: -15px;
     font-size: 1rem;
   }
 }
