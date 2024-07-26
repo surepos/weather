@@ -141,25 +141,25 @@ function App() {
           {weather && (
             <div className="weatherInfo">
               <div className="imageSection">
-                <img src={`/${weather.description}.png`} alt="Cloud" />
+                <img src={`${weather.description}.png`} alt="Cloud" />
               </div>
 
               <div className="moreWeather">
                 <div className="feelsLike">
                   <span>
-                    <img src="/travel.png" alt="" />
+                    <img src="travel.png" alt="" />
                   </span>{' '}
                   Feels like: {Math.round(weather.feels_like - 273.15)}°C
                 </div>
                 <div className="humidity">
                   <span>
-                    <img src="/humidity.png" alt="" />
+                    <img src="humidity.png" alt="" />
                   </span>{' '}
                   Humidity: {weather.humidity}%
                 </div>
                 <div className="wind">
                   <span>
-                    <img src="/wind.png" alt="" />
+                    <img src="wind.png" alt="" />
                   </span>{' '}
                   Wind: {weather.wind_speed} km/h
                 </div>
@@ -173,7 +173,7 @@ function App() {
             <div className="today">
               <div className="todayDate">Today</div>
               <div className="todayImg">
-                <img src={`/${weather.description}.png`} alt="Cloud" />
+                <img src={`${weather.description}.png`} alt="Cloud" />
               </div>
               <div className="todayTemp">
                 <div className="todayCent">
