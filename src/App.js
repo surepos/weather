@@ -100,7 +100,9 @@ function App() {
     return dayName;
   }
 
-  return (
+  return loading ? (
+    <Loader />
+  ) : (
     <div className="App">
       <div className="contentContainer">
         <div className="sectionOne">
